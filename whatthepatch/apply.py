@@ -9,7 +9,7 @@ from .snippets import which, remove
 def apply_patch(diffs):
     """ Not ready for use yet """
     pass
-
+    print "***** test code climate call"
     if isinstance(diffs, patch.diff):
         diffs = [diffs]
 
